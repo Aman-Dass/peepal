@@ -1,0 +1,262 @@
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+		}
+		body{
+			position: relative;
+			background-color: aliceblue;
+		}
+		#titles{
+			height: 500px;
+			margin: 14px;
+			border: 7px solid black;
+			font-size: 100px;
+			border-radius: 20px;
+			background-image: url("pal1.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			background-color: white;
+		}
+		#logo{
+			height: 489.5px;
+			text-align: center;
+			border: 1px solid black;
+			background-color: rgba(0,0,0,0);
+			padding-top: 100px;  
+		}
+		.peepal
+		{
+			opacity:initial;
+		}
+		div a:link,div a:visited{
+
+
+		}
+		div a:hover,div a:active{
+
+		}
+		.peepal span:nth-child(1),header >span:nth-child(1)
+			{
+			color: orange;
+			font-style: normal;
+			font-family: luminary, fantacy;
+			font:'courier new';
+			} 
+		.peepal span:nth-child(2),header >span:nth-child(2)
+			{
+			color: cyan;
+			font-style: normal;
+			font: cursive;
+			}
+		.option a{
+			font-size: 20px;
+			font-style: 'courier new';
+			text-align: center;
+			line-height: 30px; 
+			border: 1px solid green;
+			border-radius: 10px;
+			display: inline-block;
+			width: 150px;
+			background-color: navajowhite;
+			font-weight: bold;
+		}
+		.option {
+			margin: 0px 20px 0px 20px;
+			font-size: 20px;
+			background-color: darkslategrey;
+			font-style: monospace;
+			text-align: center;
+			line-height: 50px; 
+			border: 1px solid green;
+			border-radius: 10px;
+			text-decoration: none;
+			word-spacing: 40px;
+			display: block;
+		}
+		.img{
+			position: relative;
+			left: 578px;
+			top: 50px;
+			width: 180px;
+			height: 135px;
+		}
+		.choice {
+			position: relative;
+			float: none;
+			margin-top: 1.2%;
+			margin-bottom: 1.2%;
+			display: inline-block;
+		}
+		.charity{
+			line-height: 150%;
+			position: absolute;
+			left: 66%;
+			font-size: 500%;
+			background-image: url("chakra.png");
+			background-size: 160%;
+			background-repeat: no-repeat;
+			background-position: left;
+			background-color: rgb(255,191,0);
+			font-style: monospace;
+			text-align: center;
+			height: 150%;
+			border: 5px solid orange;
+			border-radius: 25px;
+			padding: 20%;
+			color: white;
+			display: inline-block;
+		}
+		.request{
+			line-height: 150%;
+			position: absolute;
+			left: 420%;
+			font-size: 500%;
+			background-image: url("chakra.png");
+			background-size: 160%;
+			background-repeat: no-repeat;
+			background-position: right;
+			background-color: rgb(191,255,0); ;
+			font-style: monospace;
+			text-align: center;
+			height: 150%;
+			border: 5px solid green;
+			border-radius: 25px;
+			padding: 20%;
+			color: white;
+			display: inline-block;
+		}
+		footer div:nth-child(1){
+			float: right;
+			height: 52px;
+			margin: 50px;
+			padding: 6px; 
+			font-weight: bold;
+			font-size: 50px;
+			text-align: center;
+			width: 50px;
+			clear: left;
+			background-color: grey;
+			border-radius: 50px;
+		}
+		footer div:nth-child(1):hover,footer div:nth-child(1):active{
+			background-color: white;
+		}
+		footer div:nth-child(2){
+			clear: both;
+			text-align: center;
+		}
+		.r1{
+			margin: 2%;
+			position: relative;
+			border: 2px solid lightgreen;
+			border-radius: 25px;
+			background-color: lightgreen;
+			height: 92%;
+		}
+		.profile{
+			position: relative;
+			width: 30%;
+			border: 3px solid green;
+			border-radius: 15px;
+			margin-left: 1.5%;
+			margin-top: 2%;
+		}
+		.r1 p{
+			margin: 0;
+			border: 2px solid blue;
+			border-radius: 10px;
+			padding: 1%;
+		}
+		#p1{
+			width: 30%;
+			position: absolute;
+			top: 5%;
+			left: 35%;
+		}
+		#p2{
+			width: 30%;
+			position: absolute;
+			top: 20%;
+			left: 35%;
+		}
+		#p2 span{
+			float: left;
+			clear: left; 
+		}
+		#p3{ 
+			text-align: center;
+			position: absolute;
+			top: 20%;
+			left: 67%;
+			font-size: 300%;
+			width: 30%;
+		}
+		#p4{
+			width: 30%;
+			position: absolute;
+			top: 5%;
+			left: 67%;
+		}
+		#p5{
+			width: 20%;
+			position: relative;
+			top: 15%;
+			left: 45%;
+		}
+		#p6{
+			width: 25%;
+			position: absolute;
+			left: 2%;
+			top: 50%;
+		}
+		.pick img{
+			width: 23%;
+			border: 2px solid blue;
+			border-radius: 10px;
+			top: 75%;
+		}
+		.pick1{
+			position: absolute;
+			left: 25%;
+		}
+		.pick2{
+			position: absolute;
+			left: 50%;
+		}
+		.pick3{
+			position: absolute;
+			left: 75%;
+		}
+		#request{
+			background-color: white;
+			border: 5px solid orange;
+			top: 10%;
+			float: right;
+			clear: both;
+			border-radius: 25px;
+			width: 60%;
+			height: 360px;
+			overflow: auto;
+		}
+		#about{
+			padding: 2%;
+			margin-top: 1.2%;
+			background-color: white;
+			float: left;
+			clear: both;
+			width: 60%;
+			height: 360px;
+			overflow: auto;
+			border-radius: 25px;
+			border: 5px solid green;
+		}
+		#about article{
+			border-radius: 25px;
+			text-align: center;
+			font-size: 120%;
+			padding: 2%;
+			background-color: rgb(255,191,0);
+		}
